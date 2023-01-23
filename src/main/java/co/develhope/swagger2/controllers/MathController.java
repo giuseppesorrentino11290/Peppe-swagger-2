@@ -13,6 +13,7 @@ public class MathController {
 
     }
 
+
     @GetMapping(value = "/math/division-info")
     public ArithmeticOperation divisionInfo(){
         ArithmeticOperation arithmeticOperation = new ArithmeticOperation();
